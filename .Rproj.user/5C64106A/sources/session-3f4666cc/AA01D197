@@ -3,7 +3,7 @@
     "path": "G:/My Drive/Multnomah County Taxes/Inst/Tax Percent by Tax Brackets.Rmd",
     "project_path": "Inst/Tax Percent by Tax Brackets.Rmd",
     "type": "r_markdown",
-    "hash": "2721480197",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1679423488061.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "42,37",
-        "scrollLine": "23"
+        "cursorPosition": "4,17",
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1679424909,
