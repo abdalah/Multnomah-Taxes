@@ -60,7 +60,7 @@ $3750 * .0475 + (9450-3750) * .0675 + (125000-9450) * .0875 + (125100-125000) * 
 
 To graph your taxes (both federal and state) per income, you would get the following:
 
-![](https://github.com/abdalah/Multnomah-Taxes/blob/master/Output/Multnomah%20County%20Taxes.png?raw=true)
+![](https://github.com/abdalah/Multnomah-Taxes/blob/main/Output/Multnomah%20County%20Taxes.png?raw=true)
 
 Note here that you see a green line as well. This is created by adding the ERA tax for Multnomah County which is a .75% on capital gains.
 
