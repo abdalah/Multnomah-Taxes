@@ -37,10 +37,9 @@ tax_rates_for_singles <- tibble(income = 1:1000000) %>%
     # Make the tax dollars per bracket
     tax_dollars = rate*case_when(
       income < min ~ 0,
-      income > max ~ max-min-1,
-      income >= min & income <= max ~ income-min-1
+      income > max ~ max-pmax(min-1, 0),
+      income >= min & income <= max ~ income-pmax(min-1, 0)
     ),
-    tax_dollars = floor(tax_dollars),
     # Create new columns for each type of tax
     wages = if_else(tax.type %in% c('federal', 'state'), tax_dollars, 0),
     capital = if_else(tax.type %in% c('capitalgains', 'state'), tax_dollars, 0),
