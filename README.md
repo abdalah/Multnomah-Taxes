@@ -56,11 +56,11 @@ https://www.incometaxpro.net/tax-rates/oregon.htm
 
 The difficulty here is comparing know how much people pay in taxes with all the different tax brackets. On top of that, tax payers pay the bracket rate for each tax bracket they are a part of. For example, if were in the highest tax bracket and made \$125,100 in Oregon, then your Oregon taxes would be the following:
 
-$3750 * .0475 + (9450-3750) * .0675 + (125000-9450) * .0875 + (125100-125000) * .099 = 10683.4$ Or $8.5\%$
+$3750 * .0475 + (9450-3750) * .0675 + (125000-9450) * .0875 + (125100-125000) * .099 = 10683.4$ Or $8.5\\%$
 
 To graph your taxes (both federal and state) per income, you would get the following:
 
-![](https://github.com/abdalah/Multnomah-Taxes/blob/master/Output/Multnomah%20County%20Taxes.png?raw=true)
+![](https://github.com/abdalah/Multnomah-Taxes/blob/main/Output/Multnomah%20County%20Taxes.png?raw=true)
 
 Note here that you see a green line as well. This is created by adding the ERA tax for Multnomah County which is a .75% on capital gains.
 
