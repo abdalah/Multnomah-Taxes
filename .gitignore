@@ -1,3 +1,5 @@
 *.Rproj
-README.html
 .Rproj.user/
+.RData
+.Rhistory
+README.html
