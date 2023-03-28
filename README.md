@@ -67,3 +67,27 @@ Note here that you see a green line as well. This is created by adding the ERA t
 #### The Graphic
 
 The graphic above is created using R with the `tidyverse` and `here` packages. The percent of income is calculated at each dollar amount that appears on the x-axis. The script is in the `Tax Percent by Tax Brackets.Rmd` file.
+
+Below is a table that shows the graphic at each $10,000 amount to show the side by side comparison on dollars.
+
+|income    |Wages |Capital Gains |New Capital Gains |
+|:---------|:-----|:-------------|:-----------------|
+|\$10,000  |16\%  |6\%           |7\%               |
+|\$20,000  |18\%  |7\%           |8\%               |
+|\$30,000  |19\%  |8\%           |9\%               |
+|\$40,000  |20\%  |8\%           |9\%               |
+|\$50,000  |21\%  |11\%          |11\%              |
+|\$60,000  |22\%  |13\%          |14\%              |
+|\$70,000  |24\%  |14\%          |15\%              |
+|\$80,000  |25\%  |16\%          |16\%              |
+|\$90,000  |25\%  |17\%          |17\%              |
+|\$100,000 |26\%  |17\%          |18\%              |
+|\$110,000 |27\%  |18\%          |19\%              |
+|\$120,000 |27\%  |18\%          |19\%              |
+|\$130,000 |28\%  |19\%          |20\%              |
+|\$140,000 |28\%  |19\%          |20\%              |
+|\$150,000 |28\%  |20\%          |20\%              |
+|\$160,000 |29\%  |20\%          |21\%              |
+|\$170,000 |29\%  |20\%          |21\%              |
+|\$180,000 |29\%  |20\%          |21\%              |
+|\$190,000 |30\%  |21\%          |21\%              |

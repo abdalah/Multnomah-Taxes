@@ -69,7 +69,10 @@ tax_graph <- tax_rates_for_singles %>%
   ggplot(aes(x=income, y=true_tax_rates, color=tax_type)) +
   geom_line() +
   scale_y_continuous(
-    labels = scales::percent_format(scale = 100)
+    labels = scales::percent_format(scale = 100),
+      expand=c(0, 0, 0.1, 0),
+      breaks=c(0.0, .1, .2, .3, .4),
+      limits=c(0.0, .35)
   ) +
   scale_x_continuous(labels=scales::dollar_format()) +
   theme(
